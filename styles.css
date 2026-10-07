@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+ul#band {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul#band li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s;
+}
+
+ul#band li:last-child {
+  border-bottom: none;
+}
+
+ul#band li:hover {
+  background: #f0f8ff;
+}
